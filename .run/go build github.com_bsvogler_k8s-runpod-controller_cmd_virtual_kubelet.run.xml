@@ -1,0 +1,15 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="go build github.com/bsvogler/k8s-runpod-controller/cmd/virtual_kubelet" type="GoApplicationRunConfiguration" factoryName="Go Application" nameIsGenerated="true">
+    <module name="k8s-runpod-controller" />
+    <working_directory value="$PROJECT_DIR$" />
+    <parameters value="--kubeconfig=$USER_HOME$/.kube/config" />
+    <envs>
+      <env name="RUNPOD_KEY" value="9P6JY2PMZTGEKP0KAFRTSNV1CI5GUTYFD6VFJALZ" />
+    </envs>
+    <kind value="PACKAGE" />
+    <package value="github.com/bsvogler/k8s-runpod-controller/cmd/virtual_kubelet" />
+    <directory value="$PROJECT_DIR$" />
+    <filePath value="$PROJECT_DIR$" />
+    <method v="2" />
+  </configuration>
+</component>
